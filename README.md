@@ -82,6 +82,18 @@ multiselect(<?= json_encode(data)  ?>, <?= json_encode(selectedData) ?>)
 
 And your multiselect will works on client-side!
 
+### Can I use it in a form
+
+Yes! You can use it in a form because a select with multiple attribut is updated in realtime using the selected data.
+
+```html
+ <select multiple="multiple" name="alpine[]" hidden>
+    <template x-for="id in selected" :key="id">
+        <option selected :value="id"></option>
+    </template>
+</select>
+```
+
 ## Examples
 
 You can test this component [at this url](https://alpinejs-multiselect.netlify.app/)
