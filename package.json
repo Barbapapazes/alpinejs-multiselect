@@ -1,6 +1,25 @@
 {
   "name": "alpinejs-multiselect",
   "version": "0.0.0",
+  "description": "Multiselect created with Alpine.js",
+  "private": true,
+  "author": {
+    "name": "Estéban Soubiran",
+    "email": "e.soubiran25@gmail.com",
+    "url": "https://esteban-soubiran.site"
+  },
+  "bugs": {
+    "url": "https://github.com/Barbapapazes/alpinejs-multiselect/issues",
+    "email": "e.soubiran25@gmail.com"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "alpinejs",
+    "multiselect"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -8,5 +27,8 @@
   },
   "devDependencies": {
     "vite": "^2.7.2"
+  },
+  "dependencies": {
+    "alpinejs": "^3.8.1"
   }
 }
